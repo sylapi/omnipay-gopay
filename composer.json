@@ -1,5 +1,5 @@
 {
-  "name": "bileto/omnipay-gopay",
+  "name": "sylapi/omnipay-gopay",
   "type": "library",
   "description": "GoPay gateway for Omnipay payment processing library",
   "keywords": [
@@ -11,7 +11,7 @@
     "gopay",
     "purchase"
   ],
-  "homepage": "https://github.com/bileto/omnipay-gopay",
+  "homepage": "https://github.com/sylapi/omnipay-gopay",
   "license": "MIT",
   "authors": [
     {
@@ -21,6 +21,10 @@
     {
       "name": "Jan Machala",
       "email": "jan.machala@bileto.com"
+    },
+    {
+      "name": "Bartlomiej Gajda",
+      "email": "b.gajda@sylapi.com"
     }
   ],
   "autoload": {

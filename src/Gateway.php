@@ -94,8 +94,7 @@ class Gateway extends AbstractGateway
     {
         $this->setToken($this->getAccessToken()->getToken());
         $request = parent::createRequest(PurchaseRequest::class, $options);
-        $response = $request->send();
-        return $response;
+        return $request;
     }
 
     /**
@@ -106,8 +105,7 @@ class Gateway extends AbstractGateway
     {
         $this->setToken($this->getAccessToken()->getToken());
         $request = parent::createRequest(StatusRequest::class, $parameters);
-        $response = $request->send();
-        return $response;
+        return $resporequestnse;
     }
 
     /**
@@ -118,8 +116,7 @@ class Gateway extends AbstractGateway
     {
         $this->setToken($this->getAccessToken()->getToken());
         $request = parent::createRequest(StatusRequest::class, $parameters);
-        $response = $request->send();
-        return $response;
+        return $request;
     }
 
     /**
@@ -130,8 +127,7 @@ class Gateway extends AbstractGateway
     {
         $this->setToken($this->getAccessToken()->getToken());
         $request = parent::createRequest(RecurrenceRequest::class, $options);
-        $response = $request->send();
-        return $response;
+        return $request;
     }
 
     /**
@@ -142,8 +138,7 @@ class Gateway extends AbstractGateway
     {
         $this->setToken($this->getAccessToken()->getToken());
         $request = parent::createRequest(CancelRecurrenceRequest::class, $options);
-        $response = $request->send();
-        return $response;
+        return $request;
     }
 
 
