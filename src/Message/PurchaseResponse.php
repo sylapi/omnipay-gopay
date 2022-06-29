@@ -18,6 +18,12 @@ class PurchaseResponse extends AbstractResponse implements RedirectResponseInter
         return is_string($redirectUrl);
     }
 
+    public function isRedirect()
+    {
+        $redirectUrl = $this->getRedirectUrl();
+        return is_string($redirectUrl);
+    }
+
     /**
      * Gets the redirect target url.
      */
