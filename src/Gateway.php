@@ -82,8 +82,8 @@ class Gateway extends AbstractGateway
     {
         /** @var AccessTokenRequest $request */
         $request = parent::createRequest(AccessTokenRequest::class, $this->getParameters());
-      
-        return $request;
+        $response = $request->send();
+        return $response;
     }
 
     /**
